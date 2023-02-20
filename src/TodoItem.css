@@ -1,0 +1,86 @@
+.ListItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 700px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.2s;
+}
+
+.ListItem:last-child {
+    border-bottom: none;
+}
+
+.ListItem:hover {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: none;
+}
+
+.CompletedMark{
+    color: #0a7308;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #0a7308;
+    transition: all 0.4s;
+}
+
+.CompletedMark:hover {
+    background-color: #0a7308;
+    color: #fff;
+}
+
+.XMark{
+    color: #730808;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #730808;
+    transition: all 0.2s;
+}
+
+.XMark:hover {
+    background-color: #730808;
+    color: #fff;
+}
+
+.Icon-checked {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #0db3c9;
+    border: 1px solid #0db3c9;
+    transition: all 0.4s;
+}
+
+.Icon-checked:hover
+{
+    background-color: #05f1da;
+    color: #fff;
+}
+
+p.Icon-checked {
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 1.2rem;
+    background-color: white;
+    color: #ddd;
+    border: none;
+}
+
+p.Icon-checked:hover {
+    background-color: white;
+    color: #ddd;
+}

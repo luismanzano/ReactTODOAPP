@@ -1,0 +1,15 @@
+.TodoSearch {
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  width: 40vw;
+  max-width: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #888;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #888;
+
+}

@@ -1,17 +1,7 @@
 import React from "react";
 import './TodoItem.css';
 
-function TodoItem({ text, completed }) {
-
-    const onComplete = () => {
-        alert('Completando TODO...' + text);
-    }
-
-    const onDelete = () => {
-        alert('Eliminando TODO...' + text);
-    }
-
-
+function TodoItem({ text, completed, onComplete, onDelete }) {
     return (
         <li key={text} className="ListItem">
         <span onClick={onComplete} className={`CompletedMark ${completed && 'Icon-checked'}`}>C</span>
